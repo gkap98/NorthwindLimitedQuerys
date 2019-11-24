@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F12EB606236B36710089D5D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12EB605236B36710089D5D9 /* main.cpp */; };
+		F12EB60E236B37F80089D5D9 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = F12EB60D236B37F80089D5D9 /* sqlite3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F12EB602236B36710089D5D9 /* trial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = trial; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12EB605236B36710089D5D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F12EB60C236B37F80089D5D9 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		F12EB60D236B37F80089D5D9 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F12EB605236B36710089D5D9 /* main.cpp */,
+				F12EB60D236B37F80089D5D9 /* sqlite3.c */,
+				F12EB60C236B37F80089D5D9 /* sqlite3.h */,
 			);
 			path = trial;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12EB606236B36710089D5D9 /* main.cpp in Sources */,
+				F12EB60E236B37F80089D5D9 /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
